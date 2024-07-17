@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #13678A;
+    font-family: OCR A Std, monospace;
+    color: white;
+}
+
+.nav-itens{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #012030;
+    height: 7vh;
+    list-style-type: none;
+    box-shadow: 0px 0px 15px 0px #45C4B0;
+}
+
+a:hover{
+    color: white;
+}
+
+.logo{
+    font-family: "Noto Sans JP", sans-serif;
+    color:#DAFDBA;
+}
+
+a{
+    color: #DAFDBA;
+    text-decoration: none;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid #45C4B0;
+    box-shadow: 0px 0px 20px 0px #45C4B0;
+}
+
+.center{
+    text-align: center;
+    padding-top: 75px;
+}
+
+head{
+    text-align: center;
+    padding-top: 75px;
+}
