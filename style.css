@@ -34,7 +34,7 @@ a{
     text-decoration: none;
 }
 
-img{
+header img{
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -47,7 +47,30 @@ img{
     padding-top: 75px;
 }
 
-head{
+header{
     text-align: center;
-    padding-top: 75px;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+footer a {
+    margin: 20px;
+}
+
+.container{
+    padding: 0px 50px;
+}
+
+p{
+    
+    padding: 20px;
 }
