@@ -4,54 +4,54 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #13678A;
     font-family: OCR A Std, monospace;
     color: white;
 }
 
-.nav-itens{
+.nav-itens {
     display: flex;
     justify-content: space-around;
     align-items: center;
     background-color: #012030;
     height: 7vh;
     list-style-type: none;
-    box-shadow: 0px 0px 15px 0px #45C4B0;
+    box-shadow: 0px 0px 100px 0px black;
 }
 
-a:hover{
+a:hover {
     color: white;
 }
 
-.logo{
+.logo {
     font-family: "Noto Sans JP", sans-serif;
-    color:#DAFDBA;
+    color: #DAFDBA;
 }
 
-a{
+a {
     color: #DAFDBA;
     text-decoration: none;
 }
 
-header img{
+header img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 5px solid #45C4B0;
-    box-shadow: 0px 0px 20px 0px #45C4B0;
+    box-shadow: 0px 0px 20px 0px black;
 }
 
-.center{
+.center {
     text-align: center;
     padding-top: 75px;
 }
 
-header{
+header {
     text-align: center;
 }
 
-footer img{
+footer img {
     width: 30px;
     height: 30px;
 }
@@ -60,17 +60,30 @@ footer {
     display: flex;
     justify-content: center;
     text-align: center;
+    padding: 0px;
+    bottom: 0;
+    width: 100%;
+    position: fixed;
 }
 
 footer a {
     margin: 20px;
 }
 
-.container{
+.container {
     padding: 0px 50px;
 }
 
-p{
-    
+p {
+
     padding: 20px;
+}
+
+.contatos {
+    margin-top: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+
 }
