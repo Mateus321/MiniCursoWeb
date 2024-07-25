@@ -39,11 +39,11 @@ li img{
     border-radius: 25px;
 }
 
-#main-section{
+main{
     text-align: center;
 }
 
-#main-section img{
+main img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -55,7 +55,7 @@ li img{
     border-radius: 50%;
 }
 
-#footer-section{
+footer{
     background-color: #e7e7e7;
     border-radius: 10px;
     text-align: center;
